@@ -12,10 +12,8 @@
 
 - (void)updateLabelConstraints{
     
-//    [UIView animateWithDuration:0.5 animations:^{
-        [self.titleLeftConstraint setConstant:0];
-        [self.descriptionLeftConstraint setConstant:0];
-//    }];
+    [self.titleLeftConstraint setConstant:0];
+    [self.descriptionLeftConstraint setConstant:0];
     
 }
 

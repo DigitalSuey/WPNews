@@ -18,8 +18,6 @@
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>{
     
     NSMutableArray *allArticles;
-    int currentArticleIndex;
-    NSDictionary *currentArticle;
     
 }
 

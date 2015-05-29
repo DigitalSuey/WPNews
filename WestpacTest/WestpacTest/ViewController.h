@@ -11,7 +11,6 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-//@property (strong, nonatomic)NSMutableDictionary *cachedImages;
 
 - (IBAction)refreshPressed:(id)sender;
 
