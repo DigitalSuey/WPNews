@@ -10,8 +10,6 @@
 
 @interface WPClient : NSObject
 
-@property (nonatomic, copy) void (^completionHandler)(void);
-
 - (void)getArticles;
 
 @end
